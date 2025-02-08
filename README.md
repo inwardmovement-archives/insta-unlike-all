@@ -2,4 +2,6 @@
 
 2. Se connecter à google/insta
 
-3. Lancer le script
+3. Mettre à jour les XPATH
+
+4. Lancer le script
