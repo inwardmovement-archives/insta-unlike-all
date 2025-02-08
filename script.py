@@ -43,7 +43,7 @@ try:
                 EC.visibility_of_element_located(
                     (
                         By.XPATH,
-                        "//*[@id='mount_0_0_TE']/div/div/div[2]/div/div/div[1]/div[1]/div[1]/section/main/div/article/div/div[2]/div/div/div[1]/div/div/div/div/div[2]/div[2]",
+                        '//*[@id="mount_0_0_CX"]/div/div/div[2]/div/div/div[1]/div[1]/div[1]/section/main/div/article/div/div[2]/div/div/div[1]/div/div/div/div/div[2]/div[2]',
                     )
                 )
             )
@@ -58,7 +58,7 @@ try:
             # Trouver la div contenant les 5 images
             div_images = driver.find_element(
                 By.XPATH,
-                "//*[@id='mount_0_0_TE']/div/div/div[2]/div/div/div[1]/div[1]/div[1]/section/main/div/article/div/div[2]/div/div/div[1]/div/div/div/div/div[3]/div/div/div[2]/div[1]/div",
+                '//*[@id="mount_0_0_CX"]/div/div/div[2]/div/div/div[1]/div[1]/div[1]/section/main/div/article/div/div[2]/div/div/div[1]/div/div/div/div/div[3]/div/div/div[2]/div[1]/div',
             )
 
             # Trouver toutes les div descendantes directes dans cette div
@@ -80,7 +80,7 @@ try:
                 EC.element_to_be_clickable(
                     (
                         By.XPATH,
-                        "//*[@id='mount_0_0_TE']/div/div/div[2]/div/div/div[1]/div[1]/div[1]/section/main/div/article/div/div[2]/div/div/div[1]/div/div/div/div/div[4]/div/div/div[2]/div/div/div[2]/div/div/div/div/div[1]/div/span",
+                        '//*[@id="mount_0_0_CX"]/div/div/div[2]/div/div/div[1]/div[1]/div[1]/section/main/div/article/div/div[2]/div/div/div[1]/div/div/div/div/div[4]/div/div/div[2]/div/div/div[2]/div/div/div/div',
                     )
                 )
             )
